@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 80px;
+}
+.container > * {
+  width: 100%;
+}
+h3 {
+  font-weight: 500;
+  font-size: 1.3em;
+  margin: 5px 0;
+  color: rgb(50, 50, 140);
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+input[type="text"] {
+  padding: 10px;
+  outline: none;
+  width: 50%;
+  margin: 3px 0;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+textarea {
+  padding: 10px;
+  resize: none;
+  width: 50%;
+  outline: none;
+  margin: 3px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+input[type="submit"] {
+  width: 50%;
+  padding: 10px;
+  cursor: pointer;
+  margin: 3px 0;
+  background: rgb(89, 89, 251);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+button {
+  padding: 10px;
+  cursor: pointer;
+  margin: 3px 0;
+  background: rgb(89, 89, 251);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#allNotes{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 300px;
+    width: 65%;
+    margin: 10px 0;
+    overflow-y: auto;
+}
+.noteContainer{
+    padding: 15px 20px;
+}
+.titleAndTime{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+#title{
+    font-family: cursive;
+    text-align: left;
+}
+.time{
+    color: #9c9c9c;
+    font-size: 0.7em;
+}
+.description{
+    font-size: 0.8em;
+    text-align: left;
+    margin: 15px 0 5px;
+}
+.editDelete{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.editDelete > *{
+    margin: 3px;
+    cursor: pointer;
+}
+.fa-pen-to-square{
+    color: #3c3c3c;
+}
+.fa-trash{
+    color: rgb(191, 2, 2);
+}
